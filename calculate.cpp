@@ -27,9 +27,9 @@ namespace bullpgia{
     arrcohice[temp]++;
   }
 
-  // for (int i=0;i<10;i++){
-  //   pgiot=pgiot+min(arrcohice[i],arrguess[i]);
-  // }
+  for (int i=0;i<10;i++){
+    int temp= min(arrcohice[i],arrguess[i]);
+  }
   pgiot=pgiot-bull;
 
 	// for( int i = 0; i < choice.length(); i++ ){  //loop for the chooser
