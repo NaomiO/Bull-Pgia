@@ -28,7 +28,7 @@ namespace bullpgia{
   }
 
   for (int i=0;i<10;i++){
-    int temp= min(arrcohice[i],arrguess[i]);
+    int temp= std::min(arrcohice[i],arrguess[i]);
   }
   pgiot=pgiot-bull;
 
