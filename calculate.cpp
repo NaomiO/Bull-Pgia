@@ -18,6 +18,10 @@ namespace bullpgia{
     if(choice[i]==guess[i])
       bull++;
   }	
+    for (int i=0;i<guess.length();i++){
+    int temp=(guess[i])-'0';
+    arrguess[temp]++;
+  }
 
 	// for( int i = 0; i < choice.length(); i++ ){  //loop for the chooser
 	//   int chooser = choice[i];
