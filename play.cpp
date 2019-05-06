@@ -12,7 +12,6 @@ using std::string;
 
 namespace bullpgia {
 	uint play(Chooser& chooser, Guesser& guesser, uint length, uint maxTurns) {
-					return 1;
 		const uint TECHNICAL_VICTORY_TO_GUESSER = 0;
 		const uint TECHNICAL_VICTORY_TO_CHOOSER = maxTurns+1;
 
