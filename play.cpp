@@ -24,6 +24,7 @@ namespace bullpgia {
 			string guess = guesser.guess();
 			if (guess.length()!=length)  // Illegal guess
 				return TECHNICAL_VICTORY_TO_CHOOSER;
+			return 1;
 			if (guess==choice) {
 				return indexOfTurn + 1; 
 			} else {
@@ -31,6 +32,6 @@ namespace bullpgia {
 				guesser.learn(reply); // tell the guesser how many bull and pgia were in its latest guess
 			}
 		}
-		return 4;  // Guesser could not guess in time
+		return TECHNICAL_VICTORY_TO_CHOOSER;  // Guesser could not guess in time
 	}
 }
