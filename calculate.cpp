@@ -3,7 +3,7 @@
 #include <iostream>
 #include <math.h>
 #include "calculate.hpp"
-
+// used Bar Genish and Lioz elmalem the idia Which is in the algorithm
 namespace bullpgia{
 
   string calculateBullAndPgia(string choice, string guess){
@@ -33,19 +33,6 @@ namespace bullpgia{
   }
   pgiot=pgiot-bull;
 
-	// for( int i = 0; i < choice.length(); i++ ){  //loop for the chooser
-	//   int chooser = choice[i];
-			
-	//    for( int j = 0; j < guess.length(); j++ ){  //loop for the guesser
-	// 	int guesser = guess[j];
-					
-	// 	if( chooser == guesser){
-	// 	   if( i == j ){     //if the guesser guessed the right number at the right place
-	// 	      bull++; }
-	// 	   else{   pgiot++;  } //if the answer contains the number guessed but not at the right place
-	// 		               }
-	// 					    }
-	// 					  }
 		
 	string bull_str = std::to_string(bull);
         string pgiot_str = std::to_string(pgiot);

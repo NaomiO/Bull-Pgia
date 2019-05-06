@@ -31,6 +31,6 @@ namespace bullpgia {
 				guesser.learn(reply); // tell the guesser how many bull and pgia were in its latest guess
 			}
 		}
-		return TECHNICAL_VICTORY_TO_CHOOSER;  // Guesser could not guess in time
+		return 4;  // Guesser could not guess in time
 	}
 }
