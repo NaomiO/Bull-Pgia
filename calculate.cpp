@@ -11,8 +11,8 @@ namespace bullpgia{
 		
 	int bull = 0;
 	int pgiot = 0;
-  int arrguess [10]= {0};
-	int arrcohice [10]= {0};
+  int arrguess [10]= {0,0,0,0,0,0,0,0,0,0};
+	int arrcohice [10]= {0,0,0,0,0,0,0,0,0,0};
 
     for(int i=0;i<choice.length();i++){
     if(choice[i]==guess[i])
